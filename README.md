@@ -1,4 +1,8 @@
 # MEAL APP
+An meal search and display app.
+
+## Description
+This is an app that gives you different categories and their meals. The app displays the different available meal categories and allows the user to pick one to see the meals in the category. The user can also search for individual meals using the search bar at the top of the page.
 
 ## Project Setup
 ### Requirements
@@ -6,6 +10,8 @@
 2. Visual studio code
 3. A working web browser
 4. Stable internet connection
+
+### Installation Process
 
 ## Author
 Joanne Ndirangu.
