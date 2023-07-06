@@ -12,8 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
         categories.forEach(category => {
         let categoryElement = document.createElement('div')
         categoryElement.innerHTML = `
+            <p class="cat"><strong>${category.strCategory}</strong></p>
             <img class="pic" src="${category.strCategoryThumb}" alt="${category.strCategory}">
-            <p class="cat">${category.strCategory}</p>`
+            <p><strong>Description:</strong>${category.strCategoryDescription}</p><br>`
         categoriesElement.appendChild(categoryElement)
 
         categoryElement.addEventListener('click', () => categoryData(category));
