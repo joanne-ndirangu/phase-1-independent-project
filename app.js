@@ -19,8 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
         categoryElement.addEventListener('click', () => categoryData(category));
         })
     }
-})
-
 
 //Fetch meals under each category
 function categoryData(category) {
@@ -43,3 +41,26 @@ function renderMeals(data){
     mealElement.appendChild(mealItem)
     })
 }
+
+//Function to search for a meal using the search bar
+    function searchMeal(){
+        document.querySelector('form').addEventListener('submit', (e) => {
+            e.preventDefault()
+            let searchText = e.target.searchInput.value
+            e.target.reset()
+            console.log(searchText)
+            mealSearch(searchText)
+        })
+    }
+    searchMeal()
+
+//Fetch search data from search API
+//Link function with render meals function
+    function mealSearch(searchText) {
+        fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${searchText}`)
+        .then(response => response.json())
+        .then(data => {
+            renderMeals(data)
+        })
+    }
+    })
