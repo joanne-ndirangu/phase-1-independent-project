@@ -1,0 +1,8 @@
+* {
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(123, 186, 128);
+}
