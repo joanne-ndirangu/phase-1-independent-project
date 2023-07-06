@@ -1,5 +1,5 @@
 # MEAL APP
-An meal search and display app.
+A meal search and category display app.
 
 ## Description
 This is an app that gives you different categories and their meals. The app displays the different available meal categories and allows the user to pick one to see the meals in the category. The user can also search for individual meals using the search bar at the top of the page.
