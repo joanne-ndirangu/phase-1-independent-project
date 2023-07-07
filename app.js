@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         categoryElement.innerHTML = `
             <p class="cat"><strong>${category.strCategory}</strong></p>
             <img class="pic" src="${category.strCategoryThumb}" alt="${category.strCategory}">
-            <p><strong>Description:</strong>${category.strCategoryDescription}</p><br>`
+            <p id="description"><strong>Description:</strong>${category.strCategoryDescription}</p><br>`
         categoriesElement.appendChild(categoryElement)
 
         categoryElement.addEventListener('click', () => categoryData(category))
@@ -53,7 +53,7 @@ document.getElementById('backButton').addEventListener('click', () => {
   function renderMeals(data) {
     let mealElement = document.getElementById('category-meals')
     mealElement.innerHTML = `
-      <h2 >Meals</h2><br>`
+    <h2>Meals</h2>`
 
     data.meals.forEach(meal => {
       let mealItem = document.createElement('div')
