@@ -26,12 +26,14 @@ code .
 ```
 4. Run the index.html file on your browser using your vs code live server or the live site link provided below.
 5. As soon as the page loads, the landing page will appear. It contains the header with a meal search bar and various meal categories.
-6. Click a category to view the available meals.
-7. Use the back button to go back to the previous page which is the landing page.
+6. Click on a category to view the available meals.
+7. Use the back button to go back to the previous page which is the landing/category page.
 8. To search a meal, go to the search bar and enter the name of the meal you'd like. The search results should appear on top of the categories.
 
 ## Live site link
-```https://joanne-ndirangu.github.io/phase-1-independent-project/ ```
+```js
+https://joanne-ndirangu.github.io/phase-1-independent-project/
+```
 
 ## Author
 Joanne Ndirangu.
