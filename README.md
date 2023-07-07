@@ -29,6 +29,7 @@ code .
 6. Click on a category to view the available meals.
 7. Use the back button to go back to the previous page which is the landing/category page.
 8. To search a meal, go to the search bar and enter the name of the meal you'd like. The search results should appear on top of the categories.
+9. Reload page to discard meal search results.
 
 ## Live site link
 ```js
