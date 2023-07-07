@@ -28,7 +28,7 @@ function categoryData(category) {
     .then(data => renderMeals(data))}
 
 function renderMeals(data){
-    let mealElement = document.getElementById('category-meals')
+    let mealElement = document.getElementById('categories')
 
     mealElement.innerHTML = `
     <h2 class="category-meals">Meals</h2><br>`
