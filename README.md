@@ -31,7 +31,7 @@ code .
 8. To search a meal, go to the search bar and enter the name of the meal you'd like. The search results should appear on top of the categories.
 
 ## Live site link
-
+```https://joanne-ndirangu.github.io/phase-1-independent-project/ ```
 
 ## Author
 Joanne Ndirangu.
