@@ -28,13 +28,13 @@ h1 {
     background-color: rgb(123, 186, 128);
 }
 
-button {
+#search-button {
     border: none;
   background-color: transparent;
   cursor: pointer;
 }
 
-button img {
+#search-button img {
     width: 30px;
     height: 25px;
 }
@@ -91,3 +91,10 @@ h2 {
     padding-bottom: 20px;
 }
 
+#backButton {
+    background-color: rgb(123, 186, 128);
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: larger;
+}
