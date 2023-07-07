@@ -30,40 +30,39 @@ document.getElementById('backButton').addEventListener('click', () => {
     document.getElementById('category-meals').innerHTML = '';
 
     // Show the categories view
-    document.getElementById('categories').style.display = 'block';
+    document.getElementById('categories').style.display = 'block'
 
     // Hide the back button
-    document.getElementById('backButton').style.display = 'none';
-  });
+    document.getElementById('backButton').style.display = 'none'
+  })
 
   // Fetch meals under each category
   function categoryData(category) {
     // Hide the categories view
-    document.getElementById('categories').style.display = 'none';
+    document.getElementById('categories').style.display = 'none'
 
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${category.strCategory}`)
       .then(res => res.json())
-      .then(data => renderMeals(data));
+      .then(data => renderMeals(data))
 
     // Show the back button
-    document.getElementById('backButton').style.display = 'block';
+    document.getElementById('backButton').style.display = 'block'
   }
 
   // Function to render meals
   function renderMeals(data) {
-    let mealElement = document.getElementById('category-meals');
-
+    let mealElement = document.getElementById('category-meals')
     mealElement.innerHTML = `
-      <h2 class="category-meals">Meals</h2><br>`;
+      <h2 >Meals</h2><br>`
 
     data.meals.forEach(meal => {
-      let mealItem = document.createElement('div');
+      let mealItem = document.createElement('div')
       mealItem.innerHTML = `
         <img class="meal-img" src="${meal.strMealThumb}" alt="${meal.strMeal}">
         <p id="meal-name">${meal.strMeal}</p>
-      `;
-      mealElement.appendChild(mealItem);
-    });
+      `
+      mealElement.appendChild(mealItem)
+    })
   }
 
   // Hide the back button initially (in case it's not on the meals page)

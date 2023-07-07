@@ -12,6 +12,26 @@ This is an app that gives you different categories and their meals. The app disp
 4. Stable internet connection
 
 ### Installation Process
+1. Clone the repository onto your computer by opening your ubuntu terminal and running the instruction below:
+``` js
+git clone git@github.com:joanne-ndirangu/phase-1-independent-project.git
+```
+2. Once cloned navigate into your the directory using
+```js
+cd phase-1-independent-project
+```
+3. Open the code on your visual studio code by typing still on the terminal
+```js
+code .
+```
+4. Run the index.html file on your browser using your vs code live server or the live site link provided below.
+5. As soon as the page loads, the landing page will appear. It contains the header with a meal search bar and various meal categories.
+6. Click a category to view the available meals.
+7. Use the back button to go back to the previous page which is the landing page.
+8. To search a meal, go to the search bar and enter the name of the meal you'd like. The search results should appear on top of the categories.
+
+## Live site link
+
 
 ## Author
 Joanne Ndirangu.

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nanum+Myeongjo&family=Poppins&family=Raleway:wght@500&display=swap');
+
 * {
     margin: 0%;
+    font-family: 'Poppins', sans-serif;
 }
 
 #header {
@@ -30,8 +33,8 @@ h1 {
 
 #search-button {
     border: none;
-  background-color: transparent;
-  cursor: pointer;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 #search-button img {
@@ -57,6 +60,7 @@ input {
     height: 230px;
     padding-right: 20px;
     padding-left: 30px;
+    cursor: pointer;
 }
 
 .cat {
@@ -97,4 +101,5 @@ h2 {
     height: 40px;
     text-align: center;
     font-size: larger;
+    cursor: pointer;
 }
