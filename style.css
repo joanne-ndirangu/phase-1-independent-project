@@ -23,7 +23,27 @@ img {
 h1 {
     margin-left: 10px;
     margin-top: 20px;
-    flex: 10;
+    flex: 5;
+}
+
+#categories {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 5;
+    padding-left: 65%;
+    color: black;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
 }
 
 #search-bar {
@@ -51,10 +71,6 @@ input {
     padding-bottom: 10px;
     font-size: medium;
     width: 300px;
-}
-
-#categories {
-    text-align: center;
 }
 
 .pic {

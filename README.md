@@ -30,6 +30,7 @@ code .
 7. Use the back button to go back to the previous page which is the landing/category page.
 8. To search a meal, go to the search bar and enter the name of the meal you'd like. The search results should appear on top of the categories.
 9. Reload page to discard meal search results.
+10. You can use the category navigation tag on the page header to go to the categories while on the landing page.
 
 ## Live site link
 ```js
